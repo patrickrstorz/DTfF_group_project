@@ -20,6 +20,7 @@ Flash Eurozone PMIs for September and their signal for business cycle analysis.
 * * *
 ### Collaboration Comments
 - [Brainstorming miro](https://miro.com/app/board/o9J_khn4A3g=/)
+
 **Hubert** *(20 Nov)*
 - Added some files of my previous project to the repo
 - Patrick's code in R (Worldbank API) and csv is still there
