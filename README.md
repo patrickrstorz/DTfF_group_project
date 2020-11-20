@@ -12,7 +12,7 @@ for the course Digital Tools for Finance at UZH.
 Flash Eurozone PMIs for September and their signal for business cycle analysis.
 
 * * *
-### Work
+### Contribution
 - Who?: LaTeX report
 - Who?: LateX beamer presentation
 - Hubert?: Code, data and project's structrure
