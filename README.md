@@ -9,19 +9,23 @@ for the course Digital Tools for Finance at UZH.
 
 ## What is the project about?
 
-Flash Eurozone PMIs for September and their signal for business cycle analysis.
+Flash Eurozone PMIs for September and their signal with respect to the business cycle.
 
 * * *
 ### Contribution
 - Who?: LaTeX report
 - Who?: LateX beamer presentation
-- Hubert?: Code, data and project's structrure
+- Hubert?: Code, data and the project's structrure
 
 * * *
 ### Collaboration Comments
 - [Brainstorming miro](https://miro.com/app/board/o9J_khn4A3g=/)
+- More about managing the project in Projects --> Assignment
 
-**Hubert** *(20 Nov)*
-- Added some files of my previous project to the repo
-- Patrick's code in R (Worldbank API) and csv is still there
-- I wanted to push my changes to a separate branch but I screw up. There is version control so I think it's also fine pushing it to the main branch
+### Some info about PMI
+- Purchasing Managers Index (PMI) is a survey that measures firms' business activity.
+- The surveys ask respondents (managers) to report the change in each variable (like output or employment) compared to the prior month, noting whether each has risen/improved, fallen/deteriorated or remained unchanged.
+- Flash reading is an advanced estimate of the final PMI number based on ~85% of total responses. It's publised about a week earlier
+- PMIs are calculated by using diffusion index: INDEX = %’higher’ * 1.0 + %’the same’ * 0.5 + %’lower’ * 0.0.
+- If PMI is 50 then nothing changed with respect to the last month. More than 50 - increased business activity. Less than 50 - decreased activity.
+- PMIs can be used to forecast GDP
