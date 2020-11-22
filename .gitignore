@@ -1,0 +1,10 @@
+
+*.aux
+*.bbl
+*.log
+*.bcf
+*.blg
+*.xml
+text/template_en_DTfF.toc
+text/template_en_DTfF.synctex.gz
+.Rhistory
