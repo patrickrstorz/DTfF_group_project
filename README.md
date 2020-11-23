@@ -2,7 +2,7 @@
 
 This is the assignment project of
 - Patrick Storz  16-108-011
-- Kevin Steijn   xx-yyy-zzz
+- Kevin Steijn   19-770-429
 - Hubert Mrugala 19-764-265
 
 for the course Digital Tools for Finance at UZH.
@@ -14,8 +14,8 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 * * *
 ### Contribution
 - Who?: LaTeX report --> Patrick 
-- Who?: LateX beamer presentation
-- Hubert?: Code, data and the project's structrure
+- Who?: LateX beamer presentation --> Kevin
+- Hubert?: Code, data and the project's structrure (Happy to help here as well - Kevin)
 
 * * *
 ### Collaboration Comments
