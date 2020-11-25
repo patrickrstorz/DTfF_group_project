@@ -32,8 +32,8 @@
     doi=false,
     eprint=false
 ]{biblatex}
-\bibliography{Bibliography/biblio}
-\addbibresource{Bibliography/biblio.bib}
+\addbibresource{PMI.bib}
+
 
 %% to avoid messy linebreaks
 \sloppy
@@ -46,8 +46,8 @@
 \begin{center}
 {\LARGE
 Digital Tools for Finance: \\[0.1cm]
-A fancy LATEX template for Group projects\\[0.1cm]
-for a future masterthesis \\[1cm]
+A fancy LATEX template for group projects\\[0.1cm]
+or for a future masterthesis \\[1cm]
 }
 
 {
@@ -57,19 +57,17 @@ for the course \\[0.5cm]
 {\bf at the University of Zurich} \\[0.5cm]
 by\\
 Igor Pozdeev and Dimitry Borisenko\\
-to obtain ``Master of Try\&Error in Digital Tools for Finance'' \\[2.5cm]
+to obtain 'Master of Try\&Error in DTfF'' \\[2.5cm]
 }
 
 
 \hspace{1cm}\begin{minipage}[h]{12cm}
 \begin{tabbing}
-Author: \hspace{1cm} \= Patrick Storz \\
+Authors: \hspace{1cm} \= Patrick Storz 16-108-011 \\
+\> Hubert Mrugala 19-764-265 \\
+\> Kevin Steijn 19-770-429 \\
 Field of Study: \> Banking and Finance \\
-Matrikelnr.: \> 16-108-011 \\
-Postal adress: \> Am Wasser 135  \\
-\> 8049 Zurich \\
-E-Mail: \> patrick.storz@uzh.ch \\
-Subm. Date: \> 20.11.2020 \\
+Subm. Date: \> 14.12.2020 \\
 \end{tabbing}
 \end{minipage}
 \end{center}
@@ -105,7 +103,7 @@ In addition,PMIs can be used to forecast GDP.
 
 \blindtext
 
-\subsection{Chapter table}
+\subsection{Chapter Table}
 
 Table:
 \begin{table}[ht]
@@ -127,20 +125,21 @@ $N(0,1)$ and $x_2$ is a binary dummy variable with $P(x_2=1)=0.5$. }
 \subsection{Chapter Graphics}
 
  \begin{figure}[h!]
-\caption{Erste Differenzen des S\&P500-Index}
+\caption{Euro Area PMI}
 \centering
 \label{figure1}
-\includegraphics[width=16cm]{plots.png}
-{\it Quelle:} Datastream.
+\includegraphics[width=13cm]{plots.png}
+{\it Source: Thomson Reuters}
 \end{figure}
 
 
 
 \subsection{Chapter Citation}
 
-The working paper \cite{} says corona is... 
-The published paper \cite{Audretsch2006} says something about IPO's in Germany
-The paper \cite{Milgrom_1982} which we merged with DOI in Jabref is...
+The working paper \cite{Koenig2002} says using the purchasing managers’ index to assess the economy’s strength and the likely direction of monetary policy.
+The published paper \cite{Harris1991} mentioned something about tracking the economy.
+The paper \cite{Afshar2007} shows correlations between stock return, consumer confidence, purchasing managers index and economic fluctuations. 
+However,\cite{Pelaez2003} aruges that there is a better option than the PMI. 
 
 
  \subsection{Chapter Formulas}
@@ -151,9 +150,15 @@ Formulas
 y_i = x_i'\beta + u_i
 \end{equation}
 
+\begin{equation}
+PMI =(P_{1}*1)+(P_{2}*0.5)
+\end{equation}
+
 \section{Conlusion}
 
 \blindtext
+
+\newpage
 
 \section{Bibliography}
 
