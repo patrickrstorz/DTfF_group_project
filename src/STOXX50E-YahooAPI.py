@@ -5,10 +5,10 @@ from datetime import datetime
 from pandas_datareader import data
 from pandas_datareader._utils import RemoteDataError
 
-asset = input("Enter the ticker: ")
-START_DATE = input("Enter the start date (YYYY_MM_DD): ")
+asset = '^STOXX50E'
+name = 'EURO STOXX 50'
+START_DATE = '2007-03-30'
 END_DATE = str(datetime.now().strftime('%Y-%m-%d'))
-
 
 def get_stats(asset):
     return {
@@ -26,14 +26,15 @@ def clean_data(asset, col):
 def create_plot(asset, ticker):
     stats = get_stats(asset)
     plt.style.use('seaborn')
-    plt.subplots(figsize=(12,8))
-    plt.plot(stats['short rolling'], label='20 days rolling mean')
+    fig = plt.figure(figsize=(12,8),dpi=120)
+    plt.plot(stats['short rolling'],label='20 days rolling mean',lw=3)
     plt.xlabel('Date')
-    plt.ylabel('Adjusted Close Price')
+    plt.ylabel('Price')
     plt.legend()
-    plt.title("Rolling 20 - " + str(ticker))
+    plt.title(name,weight='bold')
     plt.tight_layout()
     plt.show()
+    fig.savefig('output/STOXX50E')
 
 def get_data(ticker):
     try:
