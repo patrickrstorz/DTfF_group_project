@@ -13,9 +13,9 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 
 * * *
 ### Contribution
-- Who?: LaTeX report --> Patrick 
-- Who?: LateX beamer presentation --> Kevin
-- Hubert?: Code, data and the project's structrure (Happy to help here as well - Kevin)
+- Patrick Storz: LaTeX report
+- Kevin Steijn: LateX beamer
+- Hubert Mrugala: Visualizations
 
 * * *
 ### Collaboration Comments
