@@ -29,3 +29,20 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 - PMIs are calculated by using diffusion index: INDEX = %’higher’ * 1.0 + %’the same’ * 0.5 + %’lower’ * 0.0.
 - If PMI is 50 then nothing changed with respect to the last month. More than 50 - increased business activity. Less than 50 - decreased activity.
 - PMIs can be used to forecast GDP
+
+# Structure of Project
+
+    .
+    ├── data				# Data used for our analysis
+    ├── src					# Code that performs analysis
+	│   └── output				# Charts outputted from code
+	├── temp				# Files of previous project
+    │   └── reports				# Research from previous project   
+    ├── text				# Documentation files
+	│   ├── presentation        # Presentation of project
+    │   └── report				# Report of project
+    └── README.md
+
+## Bugs
+
+Find a bug in the project? [Open a new issue on GitHub](https://github.com/patrickrstorz/DTfF_group_project/issues)
