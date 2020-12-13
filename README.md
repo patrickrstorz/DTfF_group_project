@@ -30,6 +30,7 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 - If PMI is 50 then nothing changed with respect to the last month. More than 50 - increased business activity. Less than 50 - decreased activity.
 - PMIs can be used to forecast GDP
 
+
 # Structure of Project
 
     .
@@ -42,6 +43,28 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 	│   ├── presentation        # Presentation of project
     │   └── report              # Report of project
     └── README.md
+	
+## Download and Usage
+
+Simply Fork, Clone, or Download on GitHub
+
+To run the code ensure that your environment has the needed libraries by using pip:
+
+pip install -r requirements.txt
+
+requirements.txt is found in /src/
+
+To modify the presentation or report you require a tex editor, we used [MikTex](https://miktex.org/)
+
+## Dependencies
+
+See /src/requirements.txt
+
+Noteworthy of the libraries required for the project are two libraries for data retrieval.
+
+[World Bank Data](https://github.com/mwouts/world_bank_data) for retrieval of GDP indicators
+[Pandas Datareader](https://github.com/pydata/pandas-datareader) for retrieval of Stock prices
+
 
 ## Bugs
 
