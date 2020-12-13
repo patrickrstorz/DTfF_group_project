@@ -62,9 +62,9 @@ See [requirements](https://github.com/patrickrstorz/DTfF_group_project/blob/main
 
 Noteworthy of the libraries required for the project are two libraries for data retrieval:
 
-[World Bank Data](https://github.com/mwouts/world_bank_data) for retrieval of GDP indicators
+[World Bank Data](https://github.com/mwouts/world_bank_data) for retrieval of GDP indicators using the World Bank API
 
-[Pandas Datareader](https://github.com/pydata/pandas-datareader) for retrieval of Stock prices
+[Pandas Datareader](https://github.com/pydata/pandas-datareader) for retrieval of stock prices using the Yahoo Finance API
 
 
 ## Bugs
