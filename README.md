@@ -29,3 +29,44 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 - PMIs are calculated by using diffusion index: INDEX = %’higher’ * 1.0 + %’the same’ * 0.5 + %’lower’ * 0.0.
 - If PMI is 50 then nothing changed with respect to the last month. More than 50 - increased business activity. Less than 50 - decreased activity.
 - PMIs can be used to forecast GDP
+
+
+# Structure of Project
+
+    .
+    ├── data                # Data used for our analysis
+    ├── src                 # Code that performs analysis
+	│   └── output              # Charts outputted from code
+	├── temp                # Files of previous project
+    │   └── reports             # Research from previous project   
+    ├── text                # Documentation files
+	│   ├── presentation        # Presentation of project
+    │   └── report              # Report of project
+    └── README.md
+	
+## Download and Usage
+
+Simply Fork, Clone, or Download on GitHub
+
+To run the code ensure that your environment has the needed libraries by using pip:
+
+pip install -r requirements.txt
+
+[requirements.txt](https://github.com/patrickrstorz/DTfF_group_project/blob/main/src/requirements.txt) is found in /src/
+
+To modify the presentation or report you require a tex editor, we used [MikTex](https://miktex.org/)
+
+## Dependencies
+
+See [requirements](https://github.com/patrickrstorz/DTfF_group_project/blob/main/src/requirements.txt)
+
+Noteworthy of the libraries required for the project are two libraries for data retrieval:
+
+[World Bank Data](https://github.com/mwouts/world_bank_data) for retrieval of GDP indicators using the World Bank API
+
+[Pandas Datareader](https://github.com/pydata/pandas-datareader) for retrieval of stock prices using the Yahoo Finance API
+
+
+## Bugs
+
+Find a bug in the project? [Open a new issue on GitHub](https://github.com/patrickrstorz/DTfF_group_project/issues)
