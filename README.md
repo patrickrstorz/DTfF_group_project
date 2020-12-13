@@ -52,17 +52,18 @@ To run the code ensure that your environment has the needed libraries by using p
 
 pip install -r requirements.txt
 
-requirements.txt is found in /src/
+[requirements.txt](https://github.com/patrickrstorz/DTfF_group_project/blob/main/src/requirements.txt) is found in /src/
 
 To modify the presentation or report you require a tex editor, we used [MikTex](https://miktex.org/)
 
 ## Dependencies
 
-See /src/requirements.txt
+See [requirements](https://github.com/patrickrstorz/DTfF_group_project/blob/main/src/requirements.txt)
 
-Noteworthy of the libraries required for the project are two libraries for data retrieval.
+Noteworthy of the libraries required for the project are two libraries for data retrieval:
 
 [World Bank Data](https://github.com/mwouts/world_bank_data) for retrieval of GDP indicators
+
 [Pandas Datareader](https://github.com/pydata/pandas-datareader) for retrieval of Stock prices
 
 
