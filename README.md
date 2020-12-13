@@ -33,14 +33,14 @@ Flash Eurozone PMIs for September and their signal with respect to the business 
 # Structure of Project
 
     .
-    ├── data				# Data used for our analysis
-    ├── src					# Code that performs analysis
-	│   └── output				# Charts outputted from code
-	├── temp				# Files of previous project
-    │   └── reports				# Research from previous project   
-    ├── text				# Documentation files
+    ├── data                # Data used for our analysis
+    ├── src                 # Code that performs analysis
+	│   └── output              # Charts outputted from code
+	├── temp                # Files of previous project
+    │   └── reports             # Research from previous project   
+    ├── text                # Documentation files
 	│   ├── presentation        # Presentation of project
-    │   └── report				# Report of project
+    │   └── report              # Report of project
     └── README.md
 
 ## Bugs
