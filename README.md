@@ -7,7 +7,7 @@ This is the assignment project of
 
 for the course Digital Tools for Finance at UZH.
 
-## About
+## What is the project about?
 
 Flash Eurozone PMIs for September and their signal with respect to the business cycle.
 
