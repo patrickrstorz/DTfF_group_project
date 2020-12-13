@@ -50,7 +50,7 @@ Simply Fork, Clone, or Download on GitHub
 
 To run the code ensure that your environment has the needed libraries by using pip:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 [requirements.txt](https://github.com/patrickrstorz/DTfF_group_project/blob/main/src/requirements.txt) is found in /src/
 
