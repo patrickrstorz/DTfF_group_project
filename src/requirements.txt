@@ -4,3 +4,5 @@ matplotlib
 world_bank_data
 datetime
 pandas-datareader
+xlrd
+openpyxl
